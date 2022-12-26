@@ -18,3 +18,4 @@ elif temp_degree == "K":
     print(f"The temperature of {temperature}~K is equivalent to {temp_kelvin(temperature)}~C")
 else:
     print("You have entered an invalid key. Try again!")
+Print()
