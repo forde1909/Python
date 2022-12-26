@@ -24,9 +24,4 @@ print(Time) # 12-Hour:Minute:Second:AM
 # Get the current Yeay,Month,Day, returns a value like 2022,October,Friday 
 Date = dt.now().strftime("To Currnt Year, Month, Day of week is: %Y, %B, %A\n" )
 print(Date)
-
-# Get Unix time, returns a value like 1665566809.057217 
-unix_epoch_time = dt.timestamp(today) 
-print("Current Unix Time is", unix_epoch_time ) 
-print()
 print()
